@@ -1,0 +1,10 @@
+.TextBlogForm {
+    padding-top: 4rem;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+}
+.text-blog-form-container {
+    width: 80%;
+    border: 1px solid;
+}

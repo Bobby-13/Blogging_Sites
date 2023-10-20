@@ -1,0 +1,107 @@
+/* .Footer {
+  display: flex;
+  height: 20rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(40, 40, 40);
+  justify-content: center;
+}
+
+.FooterMain{
+  display: flex;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .media i { */
+/* display: flex; */
+/* padding: 2rem 2rem;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.5rem;
+  color: white; */
+/* display: flex; */
+/* } */
+
+/* .media a {
+  text-decoration: none;
+  color: grey;
+}
+
+.policies {
+  display: flex;
+  gap: 3rem;
+  padding-top: 1rem;
+}
+
+.copywrites {
+  padding: 2rem 0 4px 0 ;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.media i:hover {
+  color: orangered;
+  font-weight: bold;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+} */
+
+.Footer {
+  display: flex;
+  height: 20rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(40, 40, 40);
+  justify-content: center;
+}
+
+Footer .FooterMain {
+  display: flex;
+}
+
+Footer .media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+Footer i {
+  display: flex;
+  padding: 2rem 2rem;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+}
+
+Footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+Footer .policies {
+  display: flex;
+  gap: 3rem;
+  padding-top: 1rem;
+}
+
+Footer .copywrites {
+  padding: 2rem 0 4px 0;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+Footer .media i:hover {
+  color: orangered;
+  font-weight: bold;
+}
+
+Footer a:hover {
+  text-decoration: underline;
+}

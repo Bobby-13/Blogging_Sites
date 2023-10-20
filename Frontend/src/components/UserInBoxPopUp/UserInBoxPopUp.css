@@ -1,0 +1,11 @@
+.UserInBoxPopUp {
+    position: absolute;
+    top: 2rem;
+    max-width: 25rem;
+    width: 100%;
+    min-height: 25rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 1rem;
+}

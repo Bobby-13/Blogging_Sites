@@ -1,0 +1,309 @@
+.ManageUser {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.containerManageUser {
+  display: flex;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+
+.manageUser-title {
+  position: relative;
+  height: 1px;
+  left: 7rem;
+  top: 1rem;
+  font-size: 2rem;
+  padding-bottom: 5rem;
+}
+
+/* current users count */
+
+.currentUsers {
+  position: relative;
+  width: 8rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  left: 14rem;
+}
+
+.addingUser {
+  display: flex;
+  align-items: center;
+  gap: 45rem;
+  margin-left: 1rem;
+}
+
+#addingUser {
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.3rem;
+  border-style: none;
+  background: rgb(50, 172, 50);
+  cursor: pointer;
+}
+
+#cancelAdd {
+  position: relative;
+  right: 40rem;
+}
+
+#addingUser:hover {
+  background: rgb(49, 208, 49);
+}
+
+/* user table css */
+
+.userTable {
+  border-collapse: collapse;
+  width: 90%;
+}
+.userTable th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  /* width: 60rem; */
+}
+
+.userTable th {
+  background-color: rgb(192, 196, 199);
+  border-style: none;
+}
+
+.userTable td {
+  background-color: transparent;
+  border-bottom: 1px solid grey;
+}
+
+/* admin table css */
+
+.adminTable {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.adminTable th,td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  width: 60rem;
+}
+
+.adminTable th{
+  background-color: rgb(192, 196, 199);
+  border-style: none;
+}
+
+
+.adminTable td{
+  background-color: transparent;
+  border-bottom: 1px solid grey;
+}
+
+
+.actionBttn,
+.actionUser {
+  border-style: none;
+  color: white;
+  height: 1.4rem;
+  width: 4rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.actionBttn.editBtn,
+.actionUser.editBtn {
+  background-color: red;
+}
+.actionBttn.deleteBtn,
+.actionUser.deleteBtn {
+  background-color: blue;
+}
+.actionBttn.publishBtn {
+  background-color: green;
+}
+
+.btutn:hover,
+.actionUser:hover {
+  background-color: rgb(115, 101, 101);
+}
+
+/* manage blog css  */
+
+.titleContainer h2 {
+  width: 53rem;
+}
+
+.titleContainer {
+  display: flex;
+}
+
+.adminPannel {
+  position: relative;
+  left: 2px;
+}
+.searchBoxBlogTable {
+  display: flex;
+  border: 1px solid;
+  height: fit-content !important;
+  width: fit-content !important;
+  align-items: center;
+}
+.searchBoxBlogTable i {
+  color: black;
+  padding: 0;
+  font-size: 1rem;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.searchBoxBlogTable input {
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.adminActionHome {
+  height: 100vh;
+  width: 100%;
+}
+
+/* inbox page css  */
+
+.AdminInbox {
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.AdminInbox .inboxHeader h2,
+.AdminInbox .inboxHeader i {
+  color: black;
+  height: 1rem;
+  padding-top: 0;
+}
+
+.inboxHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  position: sticky;
+  top: 0;
+  background: white;
+  box-shadow: 0 0 3px black;
+}
+
+.notificationsBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+.notificationsBody .notificationBox {
+  height: 8rem;
+  width: 70rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.notificationsBody .notificationBox:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.notificationBox {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 25rem;
+}
+
+.notificationsBody .notificationBox h3 {
+  font-size: 2.5rem;
+  padding: 0.7rem 0;
+}
+
+.notificationsBody .notificationBox .acceptRejectBTN .acceptBTN,
+.notificationsBody .notificationBox .acceptRejectBTN .rejectBTN,
+.notificationsBody .notificationBox .acceptRejectBTN .viewBTN {
+  color: white;
+  border: none;
+  outline: none;
+  height: 2rem;
+  width: 3rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 7rem;
+  cursor: pointer;
+}
+
+.notificationsBody .notificationBox .acceptRejectBTN .acceptBTN {
+  background-color: rgb(6, 157, 6);
+}
+
+.notificationsBody .notificationBox .acceptRejectBTN .rejectBTN {
+  background-color: red;
+}
+
+.notificationsBody .notificationBox .acceptRejectBTN .viewBTN {
+  background-color: rgb(17, 59, 184);
+}
+
+.acceptRejectBTN {
+  display: flex;
+  gap: 1rem;
+  height: 3rem;
+  width: 17rem;
+}
+
+.notificationsBody .notificationBox .acceptRejectBTN .acceptBTN:hover,
+.notificationsBody .notificationBox .acceptRejectBTN .rejectBTN:hover,
+.notificationsBody .notificationBox .acceptRejectBTN .viewBTN:hover {
+  opacity: 0.7;
+}
+
+#refreshIcon:hover {
+  rotate: 360deg;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+
+/* admin home page css  */
+.adminActionHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminHomeDashBoard {
+  border: 1px solid black;
+  height: 100vh;
+  width: 100%;
+}
+
+/* popup cancel button css  */
+#popupCancelBDP {
+  color: black;
+  cursor: pointer;
+  position: relative;
+  left: 38rem;
+  top: -8rem;
+  height: 2rem;
+  width: 2rem;
+  font-size: 1rem;
+}

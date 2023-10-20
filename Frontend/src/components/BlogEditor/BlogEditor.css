@@ -1,0 +1,41 @@
+.BlogEditor {
+    height: 100%;
+}
+.wrapper-class {
+    border: 1px solid rgba(0,0,0,0.2);
+    /* width: 50rem; */
+    border-radius: 5px;
+    /* height: 100%; */
+}
+
+.editor-class {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 0 10px;
+    max-height: 30rem;
+    height: 30rem;
+}
+
+.editor-class img,
+.editor-class figure {
+    /* width: 200px !important; */
+    /* height: 200px !important; */
+}
+
+.toolbar-class {
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/* .toolbar-class img {
+    width: 200px;
+    height: 200px;
+} */
+/* .wrapper-class {
+    width: 200px;
+    height: 200px;
+} */
+
+.preview img{
+    /* height: 200px !important; */
+}

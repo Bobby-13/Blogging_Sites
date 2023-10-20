@@ -1,0 +1,1 @@
+export const DEFAULT_PROFILE_PIC = "https://i.imgur.com/523Jryd.jpg";

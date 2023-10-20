@@ -1,0 +1,54 @@
+/* .OTPContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(56, 111, 219);
+}
+
+:where(.OTPContainer,form,.input-field){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.OTPContainer .otp-container{
+    background: #ffff;
+    padding: 4.7rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.OTPContainer form.input-field{
+    flex-direction: row;
+}
+
+.OTPContainer form input{
+    height: 2.8rem;
+    width: 2.8rem;
+} */
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.otb-inbox-box {
+    border: none;
+    outline: none;
+    padding: .3rem;
+    font-size: 1rem;
+    /* margin-top: .5rem; */
+}
+.verify-otp-btn {
+    padding: .5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(103, 155, 246);
+    color: white;
+    cursor: pointer;
+}
+.verify-otp-btn:hover {
+    font-weight: bold;
+}

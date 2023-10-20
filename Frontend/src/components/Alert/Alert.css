@@ -1,0 +1,74 @@
+/* .Alert {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+
+.alert-container {
+  position: absolute;
+  z-index: 20;
+  display: flex; 
+  height: 4rem;
+  animation-name: bounce;
+  animation-duration: 7s;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  width: 20rem;
+  margin-top: 2rem;
+  /* margin-left: 50vw; */
+}
+.symbole-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+}
+.message-container {
+  width: 15rem;
+  display: flex;
+  align-items: center;
+}
+.close-btn {
+  height: 23px;
+  border: none;
+  background-color: transparent;
+  margin-top: 2px;
+}
+.close-btn span {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-135%);
+    opacity: 0;
+  }
+  2% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  8% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  85% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  95% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}

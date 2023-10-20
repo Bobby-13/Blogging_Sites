@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --primary-btn-color: #10cd82;
+    /* --primary-btn-color: white; */
+    --primary-btn-hover-color: rgba(16, 205, 130,0.8);
+    /* --navbar-color: #202326; */
+    --navbar-color: white;
+    --close-btn-color: #eb3b5a;
+    --close-btn-hover-color: #fc5c65;
+    --submit-btn-color: #20bf6b;
+    --submit-btn-hover-color: #26de81;
+    /* --navbar-color: #8854d0; */
+    /* --navbar-color: brown; */
+
+}
+
+/*  */
+.container-1 {
+    background: #ffc300;
+    color: rgb(43, 43, 43);
+  }
+  .container-2 {
+    gap: 45rem;
+    background: #ff5733;
+  }
+  .container-3 {
+    background: #5b7c99;
+  }
+  .container-4 {
+    gap: 45rem;
+    background: #084185;
+  }
+  .container-5 {
+    color: black;
+    background: #f0ece2;
+  }
+  #signup {
+    color: white;
+    font-weight: 690;
+    background-color: orangered;
+    border-radius: 5px;
+    width: 6.5rem;
+    height: 2.5rem;
+    border-style: none;
+    cursor: pointer;
+  }
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    height: 4.4rem;
+    background: #fef8dd;
+    gap: 60rem;
+  }
+  #login {
+    color: black;
+    font-weight: 680;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2.5rem;
+    cursor: pointer;
+  }
+  /*  */
+  

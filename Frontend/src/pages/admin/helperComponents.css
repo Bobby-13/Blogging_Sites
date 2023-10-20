@@ -1,0 +1,11 @@
+.tableContentContainer{
+    width: 200%;
+}
+
+.actionBtn{
+    display: flex;
+}
+
+.tableContentContainer{
+    min-width: 20rem;
+}

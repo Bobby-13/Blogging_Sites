@@ -1,0 +1,66 @@
+.AdduserForm {
+  height: 35rem;
+  width: 32rem;
+  border: 2px solid black;
+  position: relative;
+  background: white;
+  z-index: 1;
+  top: 20rem;
+  right: 90rem;
+  overflow: hidden;
+  border-radius: 25px;
+  /* scroll-behavior: auto; */
+  padding: 1rem 2rem;
+}
+
+.AdduserForm .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AdduserForm .form-container h2 {
+  position: relative;
+  left: 10rem;
+  top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.AdduserForm .form-container input {
+  height: 1.5rem;
+  width: 15rem;
+  border-radius: 5px;
+}
+
+.AdduserForm .form-container input:focus {
+  outline-color: rgb(61, 223, 172);
+}
+
+.AdduserForm .form-container i {
+  color: black;
+}
+
+.AdduserForm .form-container label {
+  position: relative;
+  padding-right: 0.6rem;
+}
+
+.AdduserForm .form-container .formClass {
+  display: flex;
+  flex-direction: column;
+}
+
+.AdduserForm .InsertUser {
+  width: 6rem;
+  height: 2rem;
+  color: black;
+  position: relative;
+  left: 8rem;
+  top: 2rem;
+  margin-right: 1rem;
+  gap: 2rem;
+}
+
+.AdduserForm .form-container .sign-up {
+  padding: 2rem;
+}

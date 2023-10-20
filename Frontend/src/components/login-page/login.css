@@ -1,0 +1,249 @@
+.Login {
+  /* background: linear-gradient(
+    90deg,
+    rgb(136, 223, 191) 0%,
+    rgb(44, 209, 154) 72%
+  ); */
+  background-image: linear-gradient(to right, #04cfd3 0%, #fc00ff 100%);
+  /* background: linear-gradient(to right, #30cfd0, var(--mainColor)); */
+  font-weight: 400;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+
+
+.Login .wrapper {
+  position: relative;
+  width: 35rem;
+  height: 50rem;
+}
+
+@media (min-width: 540px) {
+  .wrapper {
+    width: 40rem;
+  }
+}
+
+.Login .wrapper .form-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38rem;
+  /* width: 100%; */
+  height: 50.8rem;
+  background-color: #ffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Login .wrapper .form-container form h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  color: var(--titleColor);
+  margin-bottom:65px;
+}
+
+.Login .wrapper .form-container form .form-group {
+  position: relative;
+  width: 26rem;
+  margin: 1rem 0;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.Login .wrapper .form-container form .form-group i,
+.Login .wrapper .form-container form .form-group label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: var(--labelColor);
+  padding: 0 0.5rem;
+  border: none; 
+  pointer-events: none;
+  transition: all 0.5s ease;
+  height: fit-content;
+  width: fit-content;
+}
+
+.Login .wrapper .form-container form .form-group i {
+  left: 0.5rem;
+  border: none;
+}
+
+.Login .wrapper .form-container form .form-group label {
+  background-color: white;
+  left: 2.5rem;
+  border: none;
+}
+
+.Login .wrapper .form-container form .form-group input {
+  width: 100%;
+  height: 3.4rem;
+  padding: 2rem 2rem 2rem 2.5rem;
+  border-radius: 0.5rem;
+  border: none; /* Remove the border for inputs */
+  outline: none;
+  border: 0.1rem solid var(--labelColor);
+  font-size: 1rem;
+  color: var(--labelColor);
+  background: transparent;
+}
+
+.Login form .form-group input:focus ~ label,
+.Login form .form-group input:valid ~ label {
+  top: 0 !important;
+  font-size: 1.2rem !important;
+  background-color: var(--whiteColor);
+  border:none;
+}
+.Login .form-group label {
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  color: #666;
+  border:none;
+}
+.Login .btn {
+  margin-bottom: 10px;
+}
+
+.Login .wrapper .form-container form .forgot-pass {
+  margin: 2rem 0 1.5rem;
+}
+
+.Login .wrapper .form-container form .forgot-pass a {
+  color: var(--labelColor);
+  text-decoration: none;
+  font-size: 1rem;
+  transform: all 0.5s ease;
+}
+
+.Login .wrapper .form-container form .forgot-pass a:hover {
+  color: var(--mainColor);
+}
+
+.Login .wrapper .form-container form .btn {
+  background: rgb(109, 117, 113);
+  /* background: linear-gradient(to right, rgba(45,190,226,1), var(--mainColor)); */
+  color: var(--whiteColor);
+  width: 100%;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.Login .wrapper .form-container form .link {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--labelColor);
+  margin: 2.5rem 0;
+}
+
+.Login .signin-link {
+  border: none;
+  color: var(--mainColor);
+  text-decoration: none;
+  font-weight: 600;
+  background: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.Login .wrapper .sign-up {
+  transform: rotate(7deg);
+}
+
+.Login .wrapper.animated-signin .form-container.sign-in {
+  animation: signin-flip 1s ease-in-out forwards;
+}
+
+@keyframes signin-flip {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-50rem) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(0) rotate(7deg) scale(1);
+  }
+}
+
+.Login .wrapper.animated-signin .form-container.sign-up {
+  animation: rotatecard 0.7s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes rotatecard {
+  0% {
+    transform: rotate(7deg);
+  }
+
+  100% {
+    transform: rotate(0);
+    z-index: 1;
+  }
+}
+
+.Login .wrapper.animated-signup .form-container.sign-up {
+  animation: signup-flip 1s ease-in-out forwards;
+}
+
+@keyframes signup-flip {
+  0% {
+    transform: translateX(0);
+    z-index: 1;
+  }
+
+  50% {
+    transform: translateX(50rem) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(0) rotate(7deg) scale(1);
+  }
+}
+
+.Login .wrapper.animated-signup .form-container.sign-in {
+  transform: rotate(7deg);
+  animation: rotatecard 0.7s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes rotatecard {
+  0% {
+    transform: rotate(7deg);
+  }
+
+  100% {
+    transform: rotate(0);
+    z-index: 1;
+  }
+}
+.Login .btn{
+  margin-bottom: 10px;
+}
+.Login .google{
+  margin-left: 110px;
+  width:20px;
+  height:20px;
+  margin-top:-29px;
+}

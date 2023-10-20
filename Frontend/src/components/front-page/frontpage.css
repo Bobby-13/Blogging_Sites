@@ -1,0 +1,114 @@
+.Frontpage .Frontpage {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Frontpage #logo {
+  height: 6rem;
+  width: 6rem;
+}
+.Frontpage #login {
+  color: black;
+  font-weight: 680;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  width: 6rem;
+  height: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.5);
+}
+.Frontpage #login:hover,
+.Frontpage #signup:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.Frontpage .buttons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.Frontpage #signup {
+  color: white;
+  font-weight: 690;
+  background-color: orangered;
+  border-radius: 5px;
+  width: 6.5rem;
+  height: 2.5rem;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.Frontpage .topbar {
+  display: flex;
+  justify-content: space-between;
+  height: 4.4rem;
+  background: #fef8dd;
+  gap: 60rem;
+}
+
+.Frontpage #login:hover,
+.Frontpage #signup:hover {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.Frontpage .container img {
+  height: 22rem;
+  width: 25rem;
+  border-radius: 25px;
+}
+
+.Frontpage .content p {
+  max-width: 40rem;
+  line-height: 1.6rem;
+  margin-right: 3rem;
+}
+
+.Frontpage .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Frontpage .containers {
+  font-size: 1rem;
+  padding-top: 8rem;
+  min-height: 40rem;
+  height: auto;
+  color: whitesmoke;
+}
+.Frontpage .container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.Frontpage .container-1 {
+  background: #ffc300;
+  color: rgb(43, 43, 43);
+}
+.Frontpage .container-2 {
+  gap: 45rem;
+  background: #ff5733;
+}
+.Frontpage .container-3 {
+  background: #5b7c99;
+}
+.Frontpage .container-4 {
+  gap: 45rem;
+  background: #084185;
+}
+.Frontpage .container-5 {
+  color: black;
+  background: #f0ece2;
+}

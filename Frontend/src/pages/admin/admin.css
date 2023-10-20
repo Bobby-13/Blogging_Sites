@@ -1,0 +1,87 @@
+.Admin {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* overflow: hidden; controlls the scroll-behavior of the page;  */
+}
+
+.admin-action-wrapper {
+  margin-left: 18rem;
+}
+
+.sidebar {
+  background-color: rgb(34, 31, 31);
+  width: 18rem;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  z-index: 1;
+  box-shadow: 0 0 10px black;
+}
+
+.sidebarTitle {
+  color: white;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1.2rem;
+}
+
+.sidebar .para i {
+  position: relative;
+  padding: 1.4rem;
+  font-size: 1rem;
+}
+
+.sidebar .para {
+  position: relative;
+  color: white;
+  border-bottom: 1px solid black;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  left: -7px;
+  text-decoration: none;
+}
+
+.para:hover {
+  background-color: rgb(101, 99, 99);
+}
+
+.butons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buton {
+  padding: 1rem;
+  border-style: none;
+  background-color: rgb(24, 132, 24);
+  color: white;
+  border-radius: 5px;
+
+  top: 2rem;
+  left: 6rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.buton:hover {
+  background-color: rgb(68, 166, 68);
+}
+
+.adminAction {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0 0 8rem;
+  gap: 1rem;
+}
+
+.admin-action-wrapper {
+  width: 100%;
+  height: 100vh;
+}
